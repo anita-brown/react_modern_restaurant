@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios'
+// import axios from 'axios'
 
 import './Chef.css';
 const API_URL = "https://example.com/api/v1/model?page=1&limit=10"
