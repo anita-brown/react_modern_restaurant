@@ -1,6 +1,7 @@
+/* eslint-disable import/no-anonymous-default-export */
 import images from "./images";
 
-const wines = [
+ const wines = [
   {
     title: "Chapel Hill Shiraz",
     price: "$56",
@@ -28,7 +29,7 @@ const wines = [
   },
 ];
 
-const cocktails = [
+ const cocktails = [
   {
     title: "Aperol Sprtiz",
     price: "$20",
@@ -56,7 +57,7 @@ const cocktails = [
   },
 ];
 
-const awards = [
+ const awards = [
   {
     imgUrl: images.award02,
     title: "Bib Gourmond",
@@ -79,5 +80,4 @@ const awards = [
   },
 ];
 
-// eslint-disable-next-line import/no-anonymous-default-export
-export default { wines, cocktails, awards };
+ export default {wines, cocktails, awards} 
